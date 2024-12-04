@@ -14,7 +14,7 @@ checker = []
 
 
 @app.on_message(
-    filters.command(["cspeed", "speed", "cslow", "slow", "playback", "cplayback"])
+    filters.command(["cspeed", "سرعه", "cslow", "بطيء", "playback", "cplayback"])
     & filters.group
     & ~BANNED_USERS
 )
