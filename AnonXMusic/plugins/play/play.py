@@ -1,3 +1,4 @@
+from strings.filters import command
 import random
 import string
 
