@@ -30,8 +30,7 @@ def clear(text):
 
 
 async def get_thumb(videoid):
-    if os.path.isfile(f"cache/{videoid}.png"):
-        return f"cache/{videoid}.png"
+    return YOUTUBE_IMG_URL
 
     url = f"https://www.youtube.com/watch?v={videoid}"
     try:
