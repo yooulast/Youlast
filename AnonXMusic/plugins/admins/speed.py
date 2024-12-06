@@ -1,3 +1,4 @@
+from strings.filters import command
 from pyrogram import filters
 from pyrogram.types import Message
 
@@ -14,7 +15,7 @@ checker = []
 
 
 @app.on_message(
-    filters.command(["cspeed", "سرعه", "cslow", "بطيء", "playback", "cplayback"])
+    command(["cspeed", "سرعه", "cslow", "بطيء", "playback", "cplayback"])
     & filters.group
     & ~BANNED_USERS
 )
