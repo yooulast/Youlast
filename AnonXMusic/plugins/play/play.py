@@ -31,6 +31,7 @@ from config import BANNED_USERS, lyrical
         [
             "شغل",
             "تشغيل",
+            "vplay",
             "cplay",
             "cvplay",
             "playforce",
